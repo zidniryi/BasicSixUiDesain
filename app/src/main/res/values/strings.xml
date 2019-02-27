@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BasicSix(UiDesain)</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#192a56">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#9c88ff"
+        android:background="@drawable/gradienttext"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#9c88ff"
+        android:background="@drawable/gradienttext"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#9c88ff"
+        android:background="@drawable/gradienttext"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Secret One"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#9c88ff"
+        android:background="@drawable/gradienttext"
+        android:inputType="textPassword"/>
+
+
+
+    <Button
+    android:layout_width="match_parent"
+    android:id="@+id/btn1"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_marginTop="20dp"
+    android:text="Register"
+    android:background="@drawable/gradient"
+    android:textColor="#ecf0f1"
+    android:textStyle="bold"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Have Account"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ffffff"
+        android:gravity="center"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:text="Login"
+        android:background="@drawable/gradient2"
+        android:textColor="#ecf0f1"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

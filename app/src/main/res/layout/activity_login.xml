@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#192a56">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#9c88ff"
+        android:background="@drawable/gradienttext"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Secret One"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#9c88ff"
+        android:background="@drawable/gradienttext"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnlg1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:text="Login"
+        android:background="@drawable/gradient2"
+        android:textColor="#ecf0f1"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Don't have an account yet"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ffffff"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnrg1"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="#ecf0f1"
+        android:textStyle="bold"
+        android:background="@drawable/gradient"/>
+
+</LinearLayout>
